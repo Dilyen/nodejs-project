@@ -14,6 +14,7 @@ router.get('/', (req, res, next) => {
     pageTitle: 'shop', 
     path: '/', 
     hasProducts: products.length > 0,
+    //ADD IT WHEN IMPLIMENTING HBS
     activeShop: true,
     productCSS: true
      
